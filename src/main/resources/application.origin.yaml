@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: MeasurementService
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  datasource:
+    username:
+    password:
+    url:
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 1000
+        show_sql: true
+
+#server:
+#  port:
